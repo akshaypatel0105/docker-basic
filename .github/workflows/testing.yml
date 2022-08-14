@@ -34,6 +34,6 @@ jobs:
         with:
          host: 107.21.24.39
          username: ubuntu
-         passphrase: ${{ secrets.PASSPHRASE }}
+         key: ${{ secrets.PASSPHRASE }}
          port: 22
          script: /home/ubuntu/run.sh
